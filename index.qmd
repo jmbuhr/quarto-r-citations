@@ -1,0 +1,13 @@
+# Preface {.unnumbered}
+
+Quarto version `` `r system("quarto --version", intern = TRUE)` ``.
+
+```{R}
+knitr::write_bib("knitr", "bibliography.bib")
+```
+
+- Bracketet citation: [@R-knitr; @knitr2014; @knitr2015]
+- Bracketet citation without R-knitr: [@knitr2014; @knitr2015]
+- How about inline @R-knitr?
+
+

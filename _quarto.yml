@@ -1,0 +1,26 @@
+project:
+  output-dir: docs
+  type: book
+
+book:
+  title: "hello"
+  author: "Jane Doe"
+  date: "22/05/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography:
+  - references.bib
+  - bibliography.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
